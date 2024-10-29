@@ -1,0 +1,182 @@
+{
+    "workbench.colorTheme": "Material Theme Ocean",
+    "editor.fontSize": 17,
+    "editor.fontFamily": "'Monaspace Neon', monospace, Humanist sans",
+    "editor.lineNumbers": "relative",
+    "terminal.integrated.fontFamily": "MesloLGS NF ,Regular",
+    "editor.cursorSurroundingLines": 10,
+    "editor.minimap.autohide": true,
+    "editor.minimap.maxColumn": 100,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.smoothScrolling": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+    {
+        "before": ["K"],
+        "commands": ["editor.action.moveLinesUpAction"]
+    },
+    {
+        "before": ["J"],
+        "commands": ["editor.action.moveLinesDownAction"]
+    },
+    {
+        "before": ["<leader>", "y"],
+        "commands": [
+                {
+                "command": "vim.remap",
+                "args": {
+                    "after": ["\"", "+", "y"],
+                    "silent": false
+                }
+            }
+        ]
+    },
+    {
+        "before": ["<leader>", "p", "p"],
+        "commands": [
+          {
+            "command": "vim.remap",
+            "args": {
+              "after": ["\"", "+", "p"],
+              "silent": false
+            }
+          }
+        ]
+      } 
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+    {
+        "before": ["K"],
+        "commands": ["editor.action.moveLinesUpAction"]
+    },
+    {
+        "before": ["J"],
+        "commands": ["editor.action.moveLinesDownAction"]
+    },
+    {
+        "before": ["<leader>", "y"],
+        "commands": [
+                {
+                "command": "vim.remap",
+                "args": {
+                    "after": ["\"", "+", "y"],
+                    "silent": false
+                }
+            }
+        ]
+    },
+    {
+        "before": ["H"], 
+        "commands": ["editor.action.outdentLines"]
+    },
+    {
+        "before": ["L"], 
+        "commands": ["editor.action.indentLines"]
+    } 
+    ], 
+    "editor.scrollBeyondLastLine": false,
+    "editor.wordWrap": "on",
+    "editor.wordWrapColumn": 0,
+    "vim.useCtrlKeys": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+
+    "vim.leader": " ",
+    "vim.useSystemClipboard": false,
+    "vim.normalModeKeyBindingsNonRecursive": [
+    {
+        "before": ["<leader>", "t", "n"],
+        "commands": ["workbench.action.nextEditor"]
+    },
+    {
+        "before": ["<leader>", "t", "p"],
+        "commands": ["workbench.action.previousEditor"]
+    },
+
+    {
+        "before": ["<leader>", "1"],
+        "commands": ["workbench.action.openEditorAtIndex1"]
+    },
+    {
+        "before": ["<leader>", "2"],
+        "commands": ["workbench.action.openEditorAtIndex2"]
+    },
+    {
+        "before": ["<leader>", "3"],
+        "commands": ["workbench.action.openEditorAtIndex3"]
+    },
+    {
+        "before": ["<leader>", "4"],
+        "commands": ["workbench.action.openEditorAtIndex4"]
+    },
+    {
+        "before": ["<leader>", "5"],
+        "commands": ["workbench.action.openEditorAtIndex5"]
+    },
+    {
+        "before": ["<leader>", "6"],
+        "commands": ["workbench.action.openEditorAtIndex6"]
+    },
+    {
+        "before": ["<leader>", "7"],
+        "commands": ["workbench.action.openEditorAtIndex7"]
+    },
+    {
+        "before": ["<leader>", "8"],
+        "commands": ["workbench.action.openEditorAtIndex8"]
+    },
+    {
+        "before": ["<leader>", "9"],
+        "commands": ["workbench.action.openEditorAtIndex9"]
+    },
+    {
+        "before": ["<leader>", "t", "t"],
+        "commands": ["workbench.action.togglePanel"]
+    },
+    {
+        "before": ["<leader>", "p", "v"],
+        "commands": ["workbench.view.explorer"]
+    },
+    {
+        "before": ["<leader>", "<leader>"],
+        "commands": ["workbench.action.findInFiles"]
+    },
+    {
+        "before": ["<leader>", "g", "g"],
+        "commands": ["workbench.view.scm"]
+    },
+    {
+        "before": ["<leader>", "t", "s"],
+        "commands": ["workbench.action.openRecent"]
+    },
+    {
+        "before": ["<leader>", "g", "D"],
+        "commands": ["editor.action.revealDeclaration"]
+    },
+    {
+        "before": ["<leader>", "g", "d"],
+        "commands": ["editor.action.revealDefinition"]
+    },
+    {
+        "before": ["<leader>", "p", "x"],
+        "commands": ["workbench.action.closeSidebar"]
+    },
+    {
+        "before": ["u"],
+        "commands": ["undo"]
+    },
+    {
+        "before": ["C-r"],
+        "commands": ["redo"]
+    },
+    ],
+    "window.customTitleBarVisibility": "auto",
+    "git.autofetch": true,
+    "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8",
+    // "editor.formatOnSave": true
+    },
+    "redhat.telemetry.enabled": true,
+    "workbench.editor.tabSizing": "fixed",
+    // "files.autoSave": "afterDelay",
+}
