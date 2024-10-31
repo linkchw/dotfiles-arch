@@ -169,6 +169,14 @@
         "before": ["C-r"],
         "commands": ["redo"]
     },
+    {
+        "before": ["[", "d"],
+        "commands": ["editor.action.marker.next"]
+    },
+    {
+        "before": ["]", "d"],
+        "commands": ["editor.action.marker.prev"]
+    },
     ],
     "window.customTitleBarVisibility": "auto",
     "git.autofetch": true,
@@ -180,3 +188,4 @@
     "workbench.editor.tabSizing": "fixed",
     // "files.autoSave": "afterDelay",
 }
+
